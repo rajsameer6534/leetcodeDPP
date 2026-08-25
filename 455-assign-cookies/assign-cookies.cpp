@@ -9,9 +9,9 @@ public:
 
         while (child < n && cookie < m) {
             if (s[cookie] >= g[child]) {
-                child++; // assign cookie to child
+                child++; 
             }
-            cookie++; // move to next cookie
+            cookie++;
         }
         return child;
     }
